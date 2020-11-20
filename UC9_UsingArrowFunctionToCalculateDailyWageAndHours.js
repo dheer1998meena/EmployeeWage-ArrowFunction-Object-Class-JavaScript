@@ -189,7 +189,7 @@ function calculateTotalHrs(totalHr,dailyHr)
 }
 totalHr = Array.from(empDailyHourMap.values()).reduce(calculateTotalHrs,0);
 console.log("Using arrow functions,Total wage: "+totalWage+",Total hours: "+totalHr);
-//9.b Show the full workings days, part working days and no working days
+//9.b Show the full workings days, part working days and no working days.
 console.log("UC9.b Show the full workings days, part working days and no working days");
 let fullWorkingDaysArr=new Array();
 let halfWorkingDaysArr=new Array();
